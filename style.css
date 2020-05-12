@@ -1,0 +1,58 @@
+.body{
+    background-image: url(img/bright-red-background-1536690867Ypt.png)    
+}
+.random_text{
+    text-align: center;
+    color: rgb(3, 5, 116); 
+    letter-spacing: 10px;
+    text-shadow: 2px 2px rgb(255, 255, 255), 2px 2px rgb(99, 73, 109)
+}
+.random_text:hover{
+    text-align: center;
+    color: rgb(100, 100, 102); 
+    letter-spacing: 2px;
+    text-shadow: -1px -1px rgb(41, 9, 184), -2px -2px rgb(255, 255, 255);
+}
+.gif{
+    text-align: center;
+    opacity: 0.5;
+    -webkit-box-shadow: 12px 29px 81px 0px rgb(0, 0, 0);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+}
+.table {
+
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    border-collapse: collapse;
+    text-align: center;
+}
+th, td {
+    border-style: double;
+    border-width: 0 4px 4px 0;
+    border-color: rgb(0, 0, 0);
+        }
+.list_style {
+    text-align: center;
+    padding:0;
+    list-style: none ;
+}
+a:hover .a {
+    display: none;
+}
+a .b {
+    display: none;
+}
+a:hover .b {
+    display: inline;
+}
+.button {
+    color: #fff; 
+    text-decoration: none; 
+    user-select: none; 
+    background: rgb(212,75,56); 
+    padding: .7em 1.5em; 
+    outline: none; 
+} 
+.button:hover { background: rgb(232,95,76); } 
+.button:active { background: rgb(152,15,0); } 
